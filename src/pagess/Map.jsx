@@ -22,7 +22,7 @@ const MapComponent = ({location}) => {
     if(location){ setmv(location)}},[location]);
   
   return (
-    <LoadScript googleMapsApiKey="AIzaSyD7pHqeNO2Fs1UJdDP6Dxqrsvq6YCmni8I">
+    <LoadScript googleMapsApiKey="">
       <GoogleMap
         mapContainerStyle={containerStyle}
         center={center}
